@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Filmigo</title>
+    <title>Filmigo - bar de recherche</title>
     <meta
       name="description"
-      content="Retrouver vos films préférés ou en découvrir de nouveau"
+      content="Rechercher vos films préférés ou en découvrir de nouveau"
     />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" href="../image/logo.png" />
@@ -44,11 +44,11 @@
             placeholder="Chercher un logement qui vous convient"
             onfocus="this.placeholder = ''"
             onblur="this.placeholder = 'Chercher un logement qui vous convient'"
-            autocomplete="off"
-            aria-autocomplete="none"
           />
         </div>
-        <button id="Rechercher-bouton"><h2>Rechercher</h2></button>
+        <button id="Rechercher-bouton">
+          <h1 id="Rechercher-texte">Rechercher</h1>
+        </button>
       </div>
       <div id="listefilm"></div>
     </main>
