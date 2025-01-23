@@ -89,3 +89,36 @@ h2 {
   display: flex;
   justify-content: center;
 }
+#search-bar {
+  display: flex;
+  width: 600px;
+  height: 70px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 22px;
+}
+#img-search {
+  margin-top: 10px;
+}
+#Rechercher-acceuille {
+  width: 500px;
+  height: 65px;
+  padding-inline-start: 10px;
+  border: none;
+  outline: none;
+  text-overflow: ellipsis;
+  font-size: larger;
+}
+#Rechercher-bouton {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  background-color: #e8e8e8;
+  border-radius: 22px;
+}
+#Rechercher-bouton:hover {
+  background-color: #adadad;
+}
+#space {
+  height: 200px;
+}

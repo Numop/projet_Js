@@ -6,13 +6,12 @@
     <title>Filmigo</title>
     <meta
       name="description"
-      content="Retrouver vos film preferé ou en decouvrir de nouveau"
+      content="Retrouver vos films préférés ou en découvrir de nouveau"
     />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" href="../image/logo.png" />
-    <script src="../js/script.js"></script>
   </head>
-  <body>
+  <body id="mainEcran">
     <nav class="navbar">
       <ul>
         <li>
@@ -26,9 +25,33 @@
           /></a>
         </li>
         <li><a href="search.html">Rechercher</a></li>
-        <li><a href="#recommendation">Nos recommendations</a></li>
       </ul>
     </nav>
-    <main>aaaa</main>
+    <main>
+      <div id="main">
+        <div id="search-bar">
+          <img
+            src="../image/search.png"
+            alt="lancer la recherche"
+            width="50px"
+            height="50px"
+            id="img-search"
+          />
+          <input
+            type="text"
+            name=""
+            id="Rechercher-acceuille"
+            placeholder="Chercher un logement qui vous convient"
+            onfocus="this.placeholder = ''"
+            onblur="this.placeholder = 'Chercher un logement qui vous convient'"
+            autocomplete="off"
+            aria-autocomplete="none"
+          />
+        </div>
+        <button id="Rechercher-bouton"><h2>Rechercher</h2></button>
+      </div>
+      <div id="listefilm">aaaa</div>
+    </main>
   </body>
 </html>
+<script src="../js/scriptsearch.js"></script>
